@@ -1,0 +1,23 @@
+.cuatro .oferta{
+    background-color: #00446e;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cuatro .precio{
+    font-size: 2rem;
+    margin: 0;
+}
+
+@media (min-width: 800px){
+    .cuatro .oferta{
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width: 600px) and (min-width: 1000px){
+    .cuatro .oferta{
+        background-color: yellowgreen;
+    }
+}
+

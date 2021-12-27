@@ -1,0 +1,6 @@
+.siete .contenedor-responsive{
+    background-color: #FFF;
+    width: min(90%,1000px);
+    height: 40rem;
+    margin: 0 auto;
+}

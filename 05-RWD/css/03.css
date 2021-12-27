@@ -1,0 +1,25 @@
+.tres .oferta{
+    background-color: #00446e;
+    padding: 2rem;
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.tres .precio{
+    font-size: 2rem;
+    margin:0;
+}
+
+@media (max-width: 800px){
+    .tres .oferta{
+        max-width: 80%;
+    }
+}
+
+
+@media (max-width: 600px){
+    .tres .oferta{
+        max-width: 100%;
+    }
+}
