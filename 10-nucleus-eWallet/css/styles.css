@@ -199,6 +199,7 @@ img {
     margin-bottom: 5rem;
     transition-property: transform;
     transition-duration: .3s;
+    background-color: var(--white);
 }
 
 .list__elem:hover{
@@ -214,4 +215,48 @@ img {
 .list__text{
     margin: 0;
     font-size: 2rem;
+}
+
+/* Securyty */
+
+.security{
+    background-color: var(--primary);
+    padding: 10rem 0;
+    position: relative;
+    margin: 10rem 0;
+    overflow: hidden;
+}
+
+.security::after,
+.security::before{
+    background-color: var(--white);
+    content: '';
+    height: 20rem;
+    width: 120%;
+    position: absolute;
+}
+
+.security::before{
+    top:-10rem;
+    left: 0;
+    transform: rotate(3deg);
+}
+
+.security::after{
+    bottom: -10rem;
+    left: 0;
+    transform: rotate(3deg);
+}
+
+.security__heading{
+    color: var(--white);
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .security__grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 5rem;
+    }
 }
