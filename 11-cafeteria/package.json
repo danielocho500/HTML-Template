@@ -1,0 +1,14 @@
+{
+  "name": "skincare",
+  "version": "1.0.0",
+  "description": "A template of a skin-care page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danielocho500",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
